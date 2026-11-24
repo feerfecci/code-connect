@@ -1,0 +1,14 @@
+{
+  "name": "projeto-ia",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter @projeto/web dev",
+    "dev:api": "pnpm --filter @projeto/api start:dev",
+    "web:dev": "pnpm --filter @projeto/web dev",
+    "api:dev": "pnpm --filter @projeto/api start:dev",
+    "build:web": "pnpm --filter @projeto/web build",
+    "build:api": "pnpm --filter @projeto/api build",
+    "start:web": "pnpm --filter @projeto/web preview",
+    "start:api": "pnpm --filter @projeto/api start:prod"
+  }
+}

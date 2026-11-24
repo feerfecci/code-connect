@@ -1,0 +1,6 @@
+packages:
+  - 'apps/*'
+
+# pnpm 11+/12: these settings live here (not .npmrc)
+minimumReleaseAge: 0
+verifyDepsBeforeRun: false
